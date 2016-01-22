@@ -1,18 +1,11 @@
-# Autohide Battery
+# Anti-Thief
 
-GNOME Shell extension to hide battery icon, if battery is fully charged
-and AC is connected.
+GNOME Shell extension to prevent laptop stealing. It activate an alarm when AC is disconnected
 
-![Autohide Battery](http://ai.github.io/autohide-battery/screenshot.png)
+# TODO:
 
-Also, I recommend [Icon Hider] to make top panel really clean.
+	- Finish working version
+	- Select alarm sound
+	- Ask a pass to desactive
+	- 
 
-[Icon Hider]: https://extensions.gnome.org/extension/351/icon-hider/
-[Antisocial Menu]: https://extensions.gnome.org/extension/547/antisocial-menu/
-
-## Install
-
-1. Open [Autohide Battery] on GNOME Shell Extensions site.
-2. Click slider to install extension.
-
-[Autohide Battery]: https://extensions.gnome.org/extension/595/autohide-battery/

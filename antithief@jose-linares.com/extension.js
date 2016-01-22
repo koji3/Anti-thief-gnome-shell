@@ -58,10 +58,18 @@ let battery = {
 		return this;
 	},
 
-	// Show battery icon in status area
+	// Show alarm icon in status area		TODO
 	show: function () {
 		this.getBattery(function (proxy, icon) {
 			icon.show();
+		});
+		return this;
+	},
+	
+	// Hide alarm icon in status area		TODO
+	hide: function () {
+		this.getBattery(function (proxy, icon) {
+			icon.hide();
 		});
 		return this;
 	},
@@ -78,14 +86,6 @@ let battery = {
 	pause: function () {
 		this.getBattery(function (proxy, icon) {
 			icon.show();
-		});
-		return this;
-	},
-
-	// Hide battery icon in status area
-	hide: function () {
-		this.getBattery(function (proxy, icon) {
-			icon.hide();
 		});
 		return this;
 	},
